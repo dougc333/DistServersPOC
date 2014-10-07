@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<configuration>
+  <jmxConfigurator/>
+  <contextListener class="ch.qos.logback.classic.jul.LevelChangePropagator"/>
+  <!--<statusListener class="ch.qos.logback.core.status.OnConsoleStatusListener"/>-->
+
+  <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>%d [%thread] %-5level MDC[%X] %logger{36} - %msg%n</pattern>
+    </encoder>
+  </appender>
+
+  <logger name="org.apache.http" level="info"/>
+  <logger name="org.apache.hadoop" level="info"/>
+
+  <logger name="org.apache.zookeeper" level="info"/>
+
+  <logger name="org.eclipse.jetty" level="info"/>
+
+  <logger name="com.ning.http.client" level="warn"/>
+
+  <logger name="com.google.inject.internal.util.$Stopwatch" level="info"/>
+  <logger name="com.google.inject.internal.BytecodeGen" level="info"/>
+
+  <logger name="com.sun.jersey.core.spi.component.ProviderServices" level="WARN"/>
+  <logger name="com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory" level="info"/>
+  <logger name="com.sun.jersey.server.impl.ejb.EJBComponentProviderFactoryInitilizer" level="info"/>
+  <logger name="com.sun.jersey.server.impl.cdi.CDIComponentProviderFactoryInitializer" level="info"/>
+  <logger name="com.sun.jersey.server.impl.managedbeans.ManagedBeanComponentProviderFactoryInitilizer" level="info"/>
+
+  <root>
+    <level>DEBUG</level>
+    <appender-ref ref="CONSOLE"/>
+  </root>
+</configuration>
