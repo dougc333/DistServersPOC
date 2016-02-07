@@ -1,9 +1,9 @@
-package com.palominolabs.benchpress.task.simplehttp;
+package com.example.distservers.task.simplehttp;
 
-import com.palominolabs.benchpress.job.task.ComponentFactory;
-import com.palominolabs.benchpress.job.task.TaskFactory;
-import com.palominolabs.benchpress.job.task.TaskOutputProcessor;
-import com.palominolabs.benchpress.job.task.TaskOutputProcessorFactory;
+import com.example.distservers.job.task.ComponentFactory;
+import com.example.distservers.job.task.TaskFactory;
+import com.example.distservers.job.task.TaskOutputProcessor;
+import com.example.distservers.job.task.TaskOutputProcessorFactory;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;

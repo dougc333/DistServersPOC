@@ -1,6 +1,6 @@
-package com.palominolabs.benchpress.task.simplehttp;
+package com.example.distservers.task.simplehttp;
 
-import com.palominolabs.benchpress.job.task.TaskOutputProcessor;
+import com.example.distservers.job.task.TaskOutputProcessor;
 
 import java.util.ArrayList;
 import java.util.List;

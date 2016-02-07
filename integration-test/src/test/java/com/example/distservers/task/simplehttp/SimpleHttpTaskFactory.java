@@ -1,11 +1,11 @@
-package com.palominolabs.benchpress.task.simplehttp;
+package com.example.distservers.task.simplehttp;
 
 import com.ning.http.client.AsyncCompletionHandler;
 import com.ning.http.client.AsyncHttpClient;
 import com.ning.http.client.Response;
-import com.palominolabs.benchpress.job.task.TaskFactory;
-import com.palominolabs.benchpress.job.task.TaskOutputProcessorFactory;
-import com.palominolabs.benchpress.job.task.TaskOutputQueueProvider;
+import com.example.distservers.job.task.TaskFactory;
+import com.example.distservers.job.task.TaskOutputProcessorFactory;
+import com.example.distservers.job.task.TaskOutputQueueProvider;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;

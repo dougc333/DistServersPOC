@@ -1,8 +1,8 @@
-package com.palominolabs.benchpress.task.simplehttp;
+package com.example.distservers.task.simplehttp;
 
 import com.google.inject.AbstractModule;
 import com.google.inject.multibindings.Multibinder;
-import com.palominolabs.benchpress.job.task.TaskPlugin;
+import com.example.distservers.job.task.TaskPlugin;
 
 public final class SimpleHttpTaskModule extends AbstractModule {
     @Override

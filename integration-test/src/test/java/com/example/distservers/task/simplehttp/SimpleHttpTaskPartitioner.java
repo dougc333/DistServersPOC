@@ -1,11 +1,11 @@
-package com.palominolabs.benchpress.task.simplehttp;
+package com.example.distservers.task.simplehttp;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectReader;
 import com.fasterxml.jackson.databind.ObjectWriter;
-import com.palominolabs.benchpress.job.json.Partition;
-import com.palominolabs.benchpress.job.json.Task;
-import com.palominolabs.benchpress.job.task.TaskPartitioner;
+import com.example.distservers.job.json.Partition;
+import com.example.distservers.job.json.Task;
+import com.example.distservers.job.task.TaskPartitioner;
 
 import javax.annotation.Nonnull;
 import java.io.IOException;
